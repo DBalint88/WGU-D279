@@ -74,7 +74,15 @@ body {
 }
 
 .bread-crumbs {
-    background-color: bisque;
+    background-color: #6699CC;
+    color: darkslategray;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bread-crumbs p {
+    margin: 0 0 0 1rem;
 }
 
 .main {
