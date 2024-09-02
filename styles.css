@@ -10,7 +10,7 @@ body {
 
 .content-wrapper {
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     max-width: 1100px;
     background-color: blue;
     display: grid;
@@ -73,6 +73,11 @@ nav a {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+}
+
+.contact-button {
+    background: rgb(255,79,0);
+    background: linear-gradient(180deg, rgba(255,79,0,1) 35%, rgba(135,55,0,1) 100%);
 }
 
 /* Sub-Menu styling:  */
@@ -171,4 +176,40 @@ footer p {
 .socials img {
     height: 30px;
     width: auto;
+}
+
+
+/* Home Page Specifics */
+
+#home-main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "article  adopt"
+        "splash adopt";
+}
+
+#home-main article {
+    grid-area: article;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: .25rem;
+    padding: 1rem;
+}
+
+#home-main #home-splash {
+    grid-area: splash;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: .25rem;
+    padding: 1rem;
+}
+
+#home-main aside {
+    grid-area: adopt;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: .25rem;
+    padding: 1rem;
 }
