@@ -58,7 +58,6 @@ nav > ul >li {
 nav li {
     color: white;
     height: 2.8rem;
-    border: 1px solid grey;
 }
 
 nav li:hover{
