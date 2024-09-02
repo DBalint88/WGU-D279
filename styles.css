@@ -15,7 +15,7 @@ body {
     background-color: blue;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10rem 3rem 1.5rem 1fr 15rem;
+    grid-template-rows: 10rem 3rem 1.5rem 1fr 16rem;
 }
 
 header {
@@ -25,8 +25,12 @@ header {
     align-items: center;
 }
 
-header img {
+header > a  {
     height: 100%;
+}
+
+header img {
+    height:100%;
 }
 
 nav {
@@ -80,6 +84,7 @@ nav a {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    cursor: pointer;
 }
 
 .sub-menu {
@@ -139,8 +144,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     border-top: 2px solid black;
-    padding-top: 1rem;
 }
 
 footer img {
@@ -162,4 +167,9 @@ footer p {
 
 .mini-nav li:nth-child(even){
     margin: 0 .5rem 0 .5rem
+}
+
+.socials img {
+    height: 30px;
+    width: auto;
 }
