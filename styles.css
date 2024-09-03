@@ -258,7 +258,11 @@ aside img {
     width: 100%;
     object-fit: cover;
     border-radius: 1rem;
+    transition: .3s;
+}
 
+#home-splash img:hover {
+    transform: scale(95%);
 }
 
 #home-main aside {
