@@ -82,8 +82,14 @@ nav a {
 }
 
 .contact-button {
-    background: rgb(255,79,0);
     background: linear-gradient(180deg, rgba(255,79,0,1) 35%, rgba(135,55,0,1) 100%);
+    opacity: 100%;
+    transition: .3s;
+}
+
+.contact-button:hover {
+    background: linear-gradient(180deg, rgba(255,79,0,1) 35%, rgba(135,55,0,1) 100%);
+    opacity: 65%;
 }
 
 /* Sub-Menu styling:  */
@@ -296,6 +302,13 @@ aside a {
 }
 
 #contact-main article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-main aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
